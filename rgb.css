@@ -12,7 +12,7 @@
                 #2b1de8, #ac2af7, #ed24ff, #ffffff,
                 #808080, #000000, #000000 
             );
-    background-size: 2400% 2400%;
+    background-size: cover;
   
     -webkit-animation: rainbow 18s ease infinite;
     -moz-animation: rainbow 18s ease infinite;
