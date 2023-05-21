@@ -12,16 +12,18 @@
                 #2b1de8, #ac2af7, #ed24ff, #ffffff,
                 #808080, #000000, #000000 
             );
-    background-size: cover;
-  
-    -webkit-animation: rainbow 18s ease infinite;
-    -moz-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;
+   　background-size: 1800% 1800%;
+     background-position: 0% 82%;
+     background-attachment: fixed;
+
+     -webkit-animation: rainbow 18s ease infinite;
+     -moz-animation: rainbow 18s ease infinite;
+     -o-animation: rainbow 18s ease infinite;
+     animation: rainbow 18s ease infinite;
 }
 
 @keyframes rainbow {
-    0% {background-position: 0% 82%;}
-    50% {background-position: 100% 19%;}
-    100% {background-position: 0% 82%;}
+  0% { background-position: 0% 82%; opacity: 1; }
+  50% { background-position: 100% 19%; opacity: 1; }
+  100% { background-position: 0% 82%; opacity: 1; }
 }
