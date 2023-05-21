@@ -1,25 +1,25 @@
-.wrapper { 
-    height: 100%;
-    width: 100%;
-    left:0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(124deg, 
-    #000000, #ff2400, #ff2400, #e81d1d, #e8b71d, #e3e81d, 
-                #1de840, #9affab, #1ddde8, #6960ee, 
-                #2b1de8, #ac2af7, #ed24ff, #ffffff,
-                #808080, #000000, #000000 
-            );
-   　background-size: 1800% 1800%;
-     background-position: 0% 82%;
-     background-attachment: fixed;
+.wrapper {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg,
+    #000000, #ff2400, #ff2400, #e81d1d, #e8b71d, #e3e81d,
+    #1de840, #9affab, #1ddde8, #6960ee,
+    #2b1de8, #ac2af7, #ed24ff, #ffffff,
+    #808080, #000000, #000000
+  );
+  background-size: 1800% 1800%;
+  background-position: 0% 82%;
+  background-attachment: fixed;
 
-     -webkit-animation: rainbow 18s ease infinite;
-     -moz-animation: rainbow 18s ease infinite;
-     -o-animation: rainbow 18s ease infinite;
-     animation: rainbow 18s ease infinite;
+  -webkit-animation: rainbow 18s ease infinite;
+  -moz-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
 }
 
 @keyframes rainbow {
