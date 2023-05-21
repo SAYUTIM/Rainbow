@@ -6,24 +6,35 @@
   top: 0;
   bottom: 0;
   position: absolute;
-  background: linear-gradient(124deg,
-    #000000, #ff2400, #ff2400, #e81d1d, #e8b71d, #e3e81d,
-    #1de840, #9affab, #1ddde8, #6960ee,
-    #2b1de8, #ac2af7, #ed24ff, #ffffff,
-    #808080, #000000, #000000
+  background: linear-gradient(45deg,
+    #c60000, #ffca39, #f9f871,
+    #b9f76c, #66f9a3, #6ce8ff,
+    #7170ff, #9b6bff, #da5fff,
+    #ff1493, #ffffff
   );
   background-size: 1800% 1800%;
-  background-position: 0% 82%;
+  background-position: 100% 0%;
   background-attachment: fixed;
-
-  -webkit-animation: rainbow 18s ease infinite;
-  -moz-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
+  cursor: none;
 }
 
 @keyframes rainbow {
-  0% { background-position: 0% 82%; opacity: 1; }
-  50% { background-position: 100% 19%; opacity: 1; }
-  100% { background-position: 0% 82%; opacity: 1; }
+  0% { background-position: 100% 0%; opacity: 1; }
+  50% { background-position: 0% 100%; opacity: 1; }
+  100% { background-position: 100% 0%; opacity: 1; }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    background-size: 2400% 2400%;
+    animation-duration: 24s;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    background-size: 3000% 3000%;
+    animation-duration: 30s;
+  }
 }
