@@ -10,3 +10,6 @@ You can release the mode by pressing the escape key.<br>
 # This is the condition for a usable device
 It can be used if javascript is enabled on the device where the browser can be used.<br>
 The screen fits according to the size of your phone, tablet, or computer screen.<br>
+
+# Demo Site
+https://sayutim.github.io/Rainbow/
